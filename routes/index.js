@@ -1,7 +1,6 @@
 'use strict';
 
 const { getFilenamesInPath, removeJsFileFormat } = require('../utils/fileReader');
-const news = require('./news');
 
 const excludes = ['index.js'];
 const routes = getFilenamesInPath(__dirname)

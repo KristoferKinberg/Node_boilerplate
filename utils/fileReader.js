@@ -30,7 +30,11 @@ const formatFileName = (fileName) => [...fileName.replace('.js', '')]
 const createModelConstants = path => getFilenamesInPath(path)
   .reduce((acc, curr) => ({ ...acc, [formatFileName(curr).toUpperCase()]: curr.replace('.js', '') }), {});
 
-
+/**
+ * Remove js file-format from string
+ * @param filename
+ * @returns {*|Object|void|string}
+ */
 const removeJsFileFormat = filename => filename.replace('.js', '');
 
 module.exports = {
