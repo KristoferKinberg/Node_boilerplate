@@ -26,7 +26,7 @@
     "nodemailer": "^6.3.1",
     "path": "^0.12.7",
     "sanitize": "^2.1.0",
-    "sequelize": "^4.44.3",
+    "sequelize": "^5.15.1",
     "sequelize-cli": "^5.4.0",
     "serve-static": "^1.14.1"
   },
